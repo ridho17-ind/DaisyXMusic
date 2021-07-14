@@ -27,11 +27,22 @@ class Messages():
 f"""
 **Hey 👋 Welcome back to {PROJECT_NAME}
 
-🦁 Thanks To : @XFLSkyzo
+I am a Bot Music Group, which can play songs on your Voice Chat Group easily
+I have many features like:
+➠ Play music.
+➠ Download Songs.
+➠ Looking For Songs.
+➠ Download Video Song.
+➠ Thank You For Using.
+
+
 🦊 Contributors
-➠ @YaguraGans
-➠ @SadBoyIndo
-➠ @ZyansGans
+- @XFLSkyzo
+- @YaguraGans
+- @SadBoyIndo
+- @ZyansGans
+
+Want to add me to your group?Add me to your group!
 
 ⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
