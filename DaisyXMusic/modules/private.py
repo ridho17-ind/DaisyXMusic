@@ -105,13 +105,13 @@ def map(pos):
             [InlineKeyboardButton(text = '🎉 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '🏜️ Support', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = '💸 Donation', url=f"https://XFLSkyzo")],
-            [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
+            [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
     else:
         button = [
             [
-                InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = '▶️', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}"),
+                InlineKeyboardButton(text = '»', callback_data = f"help+{pos+1}")
             ],
         ]
     return button
