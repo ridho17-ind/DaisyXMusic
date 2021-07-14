@@ -640,9 +640,9 @@ async def play(_, message: Message):
 
             while j < 5:
                 toxxt += f"{emojilist[j]} <b>Title - [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})</b>\n"
-                toxxt += f" ╚ <b>Duration</b> - {results[j]['duration']}\n"
-                toxxt += f" ╚ <b>Views</b> - {results[j]['views']}\n"
-                toxxt += f" ╚ <b>Channel</b> - {results[j]['channel']}\n\n"
+                toxxt += f" ╠• <b>❃ Duration</b> - {results[j]['duration']}\n"
+                toxxt += f" ╠• <b>❃ Views</b> - {results[j]['views']}\n"
+                toxxt += f" ╚• <b>❃ Channel</b> - {results[j]['channel']}\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -656,7 +656,7 @@ async def play(_, message: Message):
                         InlineKeyboardButton("『4』", callback_data=f'plll 3|{query}|{user_id}'),
                         InlineKeyboardButton("『5』", callback_data=f'plll 4|{query}|{user_id}'),
                     ],
-                    [InlineKeyboardButton(text="❌", callback_data="cls")],
+                    [InlineKeyboardButton(text="『Close Menu』", callback_data="cls")],
                 ]
             )       
             await lel.edit(toxxt,reply_markup=koyboard,disable_web_page_preview=True)
@@ -1208,7 +1208,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("You ain't the person who requested to play the song!", show_alert=True)
         return
-    await cb.message.edit("Hang On... Player Starting")
+    await cb.message.edit("**Processing Sound...**")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
@@ -1249,11 +1249,11 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton("Updates", url="https://t.me/SadRoomsinfo"),
+                InlineKeyboardButton("Channel", url="https://t.me/SadRoomsinfo"),
                 InlineKeyboardButton(text="Download", url=f"{dlurl}"),
-                InlineKeyboardButton("Support", url="https://t.me/SadRoomsChat"),
+                InlineKeyboardButton("Group", url="https://t.me/SadRoomsChat"),
             ],
-            [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
+            [InlineKeyboardButton(text="Close Menu", callback_data="cls")],
         ]
     )
     requested_by = useer_name
@@ -1295,7 +1295,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Playing</b> here the song requested by {r_by.mention} via Youtube Music 😎",
+            caption=f"✯ <b>Playing</b> **Song Requested By {r_by.mention}, Join Updates Channel!**",
         )
         
         os.remove("final.png")
