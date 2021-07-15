@@ -1162,7 +1162,7 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯{bn}✯=#️⃣ Queued at position {position}",
+            caption=f"✯{bn}✯=# Queued at position {position}",
         )
 
     else:
@@ -1246,7 +1246,7 @@ async def lol_cb(b, cb):
         [
             [
                 InlineKeyboardButton("ᴄᴏɴᴛʀɪʙᴜᴛᴏʀꜱ", url="https://t.me/Sadroomsinfo/83"),
-                InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
+                InlineKeyboardButton("ʙᴜᴛᴛᴏɴᴍᴇɴᴜ", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/SadRoomsinfo"),
@@ -1295,7 +1295,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"<b>Playing</b> Song Requested By {r_by.mention}",
+            caption=f"<b>Playing</b> Request By {r_by.mention}",
         )
         
         os.remove("final.png")
