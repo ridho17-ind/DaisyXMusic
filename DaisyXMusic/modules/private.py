@@ -64,18 +64,18 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
             [
                 [
                     InlineKeyboardButton(
-                        "Tambahkan saya ke Grup Anda", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "Contributors", url=f"https://t.me/sadroomsinfo/83")
+                        "ᴄᴏɴᴛʀɪʙᴜᴛᴏʀꜱ", url=f"https://t.me/sadroomsinfo/83")
                 ],[
                     InlineKeyboardButton(
-                        "Donate", url=f"https://t.me/XFLSkyzo")
+                        "ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/XFLSkyzo")
                 ]
             ]
         ),
