@@ -1246,7 +1246,7 @@ async def lol_cb(b, cb):
         [
             [
                 InlineKeyboardButton("ᴄᴏɴᴛʀɪʙᴜᴛᴏʀꜱ", url="https://t.me/Sadroomsinfo/83"),
-                InlineKeyboardButton("ʙᴜᴛᴛᴏɴᴍᴇɴᴜ", callback_data="menu"),
+                InlineKeyboardButton("ʙᴜᴛᴛᴏɴ", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/SadRoomsinfo"),
