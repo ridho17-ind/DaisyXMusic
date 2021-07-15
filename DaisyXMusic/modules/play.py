@@ -1245,12 +1245,12 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Playlist", callback_data="playlist"),
+                InlineKeyboardButton("Contributors", url="https://t.me/Sadroomsinfo/83"),
                 InlineKeyboardButton("Menu", callback_data="menu"),
             ],
             [
                 InlineKeyboardButton("Channel", url="https://t.me/SadRoomsinfo"),
-                InlineKeyboardButton(text="Download", url=f"{dlurl}"),
+                InlineKeyboardButton(text="Unduh", url=f"{dlurl}"),
                 InlineKeyboardButton("Group", url="https://t.me/SadRoomsChat"),
             ],
             [InlineKeyboardButton(text="Close Menu", callback_data="cls")],
@@ -1295,7 +1295,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"✯ <b>Playing</b> **Song Requested By {r_by.mention}, Join Updates Channel!**",
+            caption=f"<b>Playing</b> Song Requested By {r_by.mention}",
         )
         
         os.remove("final.png")
