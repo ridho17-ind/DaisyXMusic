@@ -48,8 +48,7 @@ Saya Memiliki Banyak Fitur Seperti :
 ➠ Tekan » /help « Untuk Fitur Lainnya.
 
 
-🦁 Special Thanks To : {OWNER}
-🦊 Thank To Contributors
+🦊 Special Thanks To Contributors
 - @XFLSkyzo
 - @YaguraGans
 - @SadboyInfo
