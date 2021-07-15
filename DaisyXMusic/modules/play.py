@@ -1251,7 +1251,7 @@ async def lol_cb(b, cb):
             [
                 InlineKeyboardButton("Channel", url="https://t.me/SadRoomsinfo"),
                 InlineKeyboardButton(text="Unduh", url=f"{dlurl}"),
-                InlineKeyboardButton("Group", url="https://t.me/SadRoomsChat"),
+                InlineKeyboardButton("Grup", url="https://t.me/SadRoomsChat"),
             ],
             [InlineKeyboardButton(text="Close Menu", callback_data="cls")],
         ]
