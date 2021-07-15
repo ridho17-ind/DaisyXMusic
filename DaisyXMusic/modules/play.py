@@ -1245,15 +1245,15 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Contributors", url="https://t.me/Sadroomsinfo/83"),
-                InlineKeyboardButton("Menu", callback_data="menu"),
+                InlineKeyboardButton("ᴄᴏɴᴛʀɪʙᴜᴛᴏʀꜱ", url="https://t.me/Sadroomsinfo/83"),
+                InlineKeyboardButton("ᴍᴇɴᴜ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton("Channel", url="https://t.me/SadRoomsinfo"),
-                InlineKeyboardButton(text="Unduh", url=f"{dlurl}"),
-                InlineKeyboardButton("Grup", url="https://t.me/SadRoomsChat"),
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/SadRoomsinfo"),
+                InlineKeyboardButton(text="ᴜɴᴅᴜʜ", url=f"{dlurl}"),
+                InlineKeyboardButton("ɢʀᴜᴘ", url="https://t.me/SadRoomsChat"),
             ],
-            [InlineKeyboardButton(text="Close Menu", callback_data="cls")],
+            [InlineKeyboardButton(text="ᴄʟᴏꜱᴇ ᴛʜɪꜱ ᴍᴇɴᴜ", callback_data="cls")],
         ]
     )
     requested_by = useer_name
