@@ -104,36 +104,36 @@ f"""
 **2) Create a group with tittle: Channel Music: your_channel_id**
 **3) Add bot as Channel admin with full perms**
 **4) Add @{ASSISTANT_NAME} to the channel as an admin.**
-**5) Simply send commands in your group. (remember to use /ytplay instead /play)**
+**5) Simply send commands in your group. (use /ytplay instead /play)**
 """,
 
 f"""
-**➠ More tools**
+**➠ More Tools**
 
-**- /musicplayer [on/off]: Enable/Disable Music player**
-**- /admincache: Updates admin info of your group. Try if bot isn't recognize admin**
-**- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat**
+**- /musicplayer [on/off]**
+**- /admincache**
+**- /userbotjoin**
 """,
 f"""
 **➠ Song Download**
 
-**- /video [song mame]: Download video song from youtube**
-**- /song [song name]: Download audio song from youtube*"
-**- /saavn [song name]: Download song from saavn**
-**- /deezer [song name]: Download song from deezer**
+**- /video [song mame]**
+**- /song [song name]**
+**- /saavn [song name]**
+**- /deezer [song name]**
 
 **➠ Search Tools**
 
-**- /search [song name]: Search youtube for songs**
-**- /lyrics [song name]: Get song lyrics**
+**- /search [song name]**
+**- /lyrics [song name]**
 """,
 
 f"""
 **➠ Commands for Sudo Users**
 
-** - /userbotleaveall - remove assistant from all chats**
-** - /broadcast <reply to message> - globally brodcast replied message to all chats**
-** - /pmpermit [on/off] - enable/disable pmpermit message**
+ **- /userbotleaveall**
+ **- /broadcast <reply to message>**
+ **- /pmpermit [on/off]**
 **Sudo Users can execute any command in any groups**
 
 """
