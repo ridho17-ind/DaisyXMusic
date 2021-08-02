@@ -30,9 +30,6 @@ f"""
 
 🦊 Contributors
 - @XFLSkyzo
-- @YaguraGans
-- @SadBoyIndo
-- @ZyansGans
 
 Want to add me to your group?Add me to your group!
 
