@@ -45,7 +45,7 @@ async def reload(client: Client, message: Message):
                         "ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SadRoomsChat"
                     ),
                     InlineKeyboardButton(
-                        "ᴅᴇᴠᴏʟᴏᴘᴇʀ", url=f"https://t.me/sadroomsinfo/83"
+                        "ᴅᴇᴠᴏʟᴏᴘᴇʀ", url=f"https://t.me/xflskyzo"
                     )
                 ]
             ]
